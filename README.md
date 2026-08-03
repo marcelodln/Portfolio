@@ -1,48 +1,48 @@
-# Portafolio Personal
+# Personal Portfolio
 
-Este es mi portafolio personal, construido como parte de mi proceso de aprendizaje en desarrollo web. **El proyecto está en construcción**, así que algunas secciones aún tienen contenido de prueba o están sin terminar.
+This is my personal portfolio, built as part of my learning process in web development. **The project is a work in progress**, so some sections still have placeholder content or are unfinished.
 
-## Sobre este proyecto
+## About this project
 
-Lo estoy usando para aprender React, Vite y Tailwind CSS de forma práctica: entender cómo se estructura un proyecto, cómo se separan componentes y datos, y cómo se integran dependencias. Algunas partes del código (como las animaciones del hero) fueron generadas con apoyo de un asistente de IA; mi trabajo en esos casos ha sido identificar componentes y dependencias, e ir ajustando parámetros visuales (color, tamaño, cantidad de elementos, posición) para entender su efecto.
+I'm using this to learn React, Vite, and Tailwind CSS in a hands-on way: understanding how a project is structured, how components and data are separated, and how dependencies are integrated. Some parts of the code (like the hero animation) were generated with the help of an AI assistant; my work in those cases has been identifying components and dependencies, and adjusting visual parameters (color, size, number of elements, position) to understand their effect.
 
 ## Stack
 
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/) (animaciones)
+- [Framer Motion](https://www.framer.com/motion/) (animations)
 - [Oxlint](https://oxlint.dev/) (linting)
 
-## Estructura
+## Structure
 
-El proyecto sigue un patrón de secciones (Nav, Hero, About, Projects, Credentials, Experience, Skills, Contact), donde el contenido dinámico (proyectos, credenciales, experiencia) vive separado en `src/data/` y se renderiza mediante componentes tipo "Card".
+The project follows a section-based pattern (Nav, Hero, About, Projects, Credentials, Experience, Skills, Contact), where dynamic content (projects, credentials, experience) lives separately in `src/data/` and is rendered through "Card" components.
 
-## Cómo correrlo localmente
+## Running it locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Otros comandos disponibles:
+Other available commands:
 
 ```bash
-npm run build     # build de producción
-npm run lint      # linting con Oxlint
-npm run preview   # previsualizar el build de producción
+npm run build     # production build
+npm run lint      # linting with Oxlint
+npm run preview   # preview the production build
 ```
 
-## Estado actual
+## Current status
 
-- [x] Estructura base y navegación por anclas
-- [x] Componentización de secciones con datos separados
-- [ ] Dirección visual definitiva para todas las secciones
-- [ ] Animaciones con Framer Motion en el resto del sitio
-- [ ] Revisión responsiva completa (móvil / tablet / desktop)
-- [ ] Contenido real (proyectos, experiencia, about) — actualmente hay placeholders
-- [ ] Despliegue en Vercel
+- [x] Base structure and anchor navigation
+- [x] Section componentization with separated data
+- [ ] Final visual direction for all sections
+- [ ] Framer Motion animations across the rest of the site
+- [ ] Full responsive review (mobile / tablet / desktop)
+- [ ] Real content (projects, experience, about) — currently placeholders
+- [ ] Deployment to Vercel
 
-## Nota
+## Note
 
-Este repositorio es parte de mi proceso de aprendizaje, no un producto terminado. Si algo se ve incompleto o inconsistente, es porque todavía está en desarrollo.
+This repository is part of my learning process, not a finished product. If something looks incomplete or inconsistent, it's because it's still under development.

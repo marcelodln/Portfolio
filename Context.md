@@ -7,6 +7,7 @@ This project is a modern, responsive landing page built using **React** and **Vi
 - **Framework:** [React](https://react.dev/) (v19.2.7)
 - **Build Tool:** [Vite](https://vitejs.dev/) (v8.1.0)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/) (v4.3.1) via `@tailwindcss/vite`
+- **Animations:** [Framer Motion](https://www.framer.com/motion/) (v12.43.0) — used in Phase 4 for scroll-in and hover animations
 - **Linting:** [Oxlint](https://oxlint.dev/)
 
 ## Project Structure
@@ -79,8 +80,8 @@ Hero, About, Skills, and Contact contain fixed text (not iterable data), so they
 
 ### Development Phases
 - **Phase 1 (done):** Skeleton — all 7 sections + Nav created as placeholder components, wired into App.jsx in order, anchor navigation working.
-- **Phase 2 (in progress):** Componentization — Projects, Credentials, Experience converted to data-driven pattern with Card components and `src/data/` files.
-- **Phase 2.5 (pending):** Visual direction — AI to propose 2-3 color/style directions applied to Hero as sample, user selects one.
+- **Phase 2 (done):** Componentization — Projects, Credentials, Experience converted to data-driven pattern with Card components and `src/data/` files.
+- **Phase 2.5 (in progress):** Visual direction — defining colors and style for the entire portfolio (no animations, no layout changes). This is done by iterating on Hero as the reference section.
 - **Phase 3 (pending):** Apply chosen visual direction across all sections with Tailwind.
 - **Phase 4 (pending):** Framer Motion animations (scroll-in, hover states).
 - **Phase 5 (pending):** Real responsive check across mobile/tablet/desktop breakpoints.

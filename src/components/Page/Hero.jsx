@@ -354,13 +354,12 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-[650px] w-full">
         <h1 className="font-poppins text-6xl sm:text-7xl font-semibold tracking-tight text-gray-100 mb-6 leading-[1.15]">
-          Minimalist{" "}
-          <span className="font-medium text-blue-400">Design.</span>
+          Portfolio{" "}
+          <span className="font-medium text-blue-400">React.</span>
         </h1>
 
         <p className="font-poppins text-lg text-gray-300 max-w-[450px] mb-14 leading-relaxed font-normal">
-          Crafting digital experiences with precision, elegance, and modern
-          simplicity.
+          This portfolio is still under development.
         </p>
 
         <div className="flex items-center gap-10">

@@ -1,6 +1,6 @@
 import React from "react";
-import { experience } from "../data/experience.js";
-import ExperienceCard from "./ExperienceCard.jsx";
+import { experience } from "../../data/experience.js";
+import ExperienceCard from "../Cards/ExperienceCard.jsx";
 
 export default function Experience() {
   return (

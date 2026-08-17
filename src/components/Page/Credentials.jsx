@@ -1,6 +1,6 @@
 import React from "react";
-import { credentials } from "../data/credentials.js";
-import CredentialCard from "./CredentialCard.jsx";
+import { credentials } from "../../data/credentials.js";
+import CredentialCard from "../Cards/CredentialCard.jsx";
 
 export default function Credentials() {
   return (

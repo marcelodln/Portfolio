@@ -23,13 +23,22 @@
    - Adding/modifying content = edit array only. NEVER touch Card/Section components for data changes.
 2. **Static Sections (`Hero`, `About`, `Skills`, `Contact`):**
    - Layout & content live inside the JSX file directly.
+   - **Exception — `Hero.jsx`:** currently experimental (WebGL particle system via `ogl`). Frequent rewrites expected. See `Context.md` for current state before modifying.
 
 ### Navigation Rules
 - Every main section element must include its matching `id` corresponding to `Nav.jsx` anchors.
 
-## Roadmap & Current State
-- **Current Phase:** Phase 2 (Componentization) → Moving to Phase 2.5 (Visual Direction).
-- **Rule:** Do not jump to Phase 4 (Framer Motion) or fill real content until Phase 2 & 3 are complete.
+## Post-Task Protocol (Mandatory)
+
+After completing ANY task, update `Context.md` if the task involved:
+- **New dependency installed** → Add to `Tech Stack` section (name, version, one-line purpose)
+- **New file/folder created** → Update `Project Structure` tree
+- **New component created** → Add to component list with one-line purpose
+- **Architecture/pattern change** → Update relevant section in `Key Features & Implementation Details`
+
+Rule: If `package.json` changed OR the file tree changed, `Context.md` MUST be updated in the same response — not as a separate follow-up task, not left for the user to ask.
+
+Format: Keep additions in the same style/tone as existing Context.md content. Do not rewrite unrelated sections.
 
 ## Output Formatting
 - Provide direct file code or Unified Diffs.
